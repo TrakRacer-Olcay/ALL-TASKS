@@ -1,0 +1,20 @@
+                          State  Expensive_Ratio
+0  Australian Capital Territory         0.285714
+1               New South Wales         0.176768
+2                   New Zealand         1.000000
+3            Northern Territory         0.600000
+4                    Queensland         0.264000
+5               South Australia         0.093023
+6                      Tasmania         0.315789
+7                      Victoria         0.250000
+8             Western Australia         0.329897
+
+
+THRESHOLD SUGGESTION 0.3
+
+- The weighted average shipping cost per kilogram for the free shipping states, excluding Western Australia, Northern Territory, Tasmania, and New Zealand, is approximately $1.63 per kg.
+
+- Queensland and New South Wales have higher average shipping costs per kg compared to the overall weighted average.
+- Victoria has the lowest average shipping cost per kg, significantly below the overall weighted average.
+- In the islands we do not apply an international shipping cost. We only have 4/706 international charge. They are in New Zealand.
+

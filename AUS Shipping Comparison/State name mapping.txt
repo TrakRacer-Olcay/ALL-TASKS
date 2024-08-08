@@ -1,0 +1,10 @@
+state_name_mapping = {
+    'NSW': 'New South Wales',
+    'VIC': 'Victoria',
+    'QLD': 'Queensland',
+    'TAS': 'Tasmania',
+    'ACT': 'Australian Capital Territory',
+    'WA': 'Western Australia',
+    'SA': 'South Australia',
+    'NT': 'Northern Territory'
+}

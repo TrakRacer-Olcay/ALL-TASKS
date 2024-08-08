@@ -1,0 +1,43 @@
+It appears there was an oversight in handling the orders where the shipping cost is presented only once per Name, despite having multiple SKUs. To address this:
+
+Mathematical Calculation of the 8.40% Increase
+Median Required Increase Percentage: 10.23%
+Weighted Average Required Increase Percentage: 6.56%
+Adjusted Increase Percentage: (Median + Weighted Average) / 2
+Adjusted Increase Percentage
+=
+10.23
++
+6.56
+2
+=
+8.40
+%
+Adjusted Increase Percentage= 
+2
+10.23+6.56
+​
+ =8.40%
+
+
+Coverage Analysis with 8.40% Increase
+Total Orders: 660
+Orders Covering Shipping Costs: 300
+Orders Not Covering Shipping Costs: 360
+Coverage Ratio: 45.45%
+
+Observations:
+High Shipping Costs Relative to Subtotal:
+
+Smaller orders have shipping costs that constitute a significant portion of their subtotals.
+The adjusted increase does not sufficiently cover the shipping costs for these orders.
+Non-Covered Orders:
+
+All sample smaller orders still do not cover their shipping costs even after applying the 8.40% increase.
+
+
+High Hypothetical Increase Percentages: Smaller orders often require a significant increase percentage (ranging from approximately 11% to over 21%) to cover their shipping costs.
+
+Recommendations for Smaller Orders:
+Minimum Order Value for Free Shipping: Implement a minimum order value to qualify for free shipping, encouraging larger orders.
+
