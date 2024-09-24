@@ -1,0 +1,1186 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:util="java://com.fedex.pricing.ratevisibility.xopco.docmngt.generator.PricingDocumentProcessorHelper"
+ xmlns:xalan="http://xml.apache.org/xalan"
+ xmlns:java="http://xml.apache.org/xslt/java">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tristan Heringa</Author>
+  <LastAuthor>Olcay Bolat</LastAuthor>
+  <Created>2024-08-15T19:05:02Z</Created>
+  <LastSaved>2024-08-19T12:00:05Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11110</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Report">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="271" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="155.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="100"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="94.5"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="6" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s64"><Data ss:Type="String">FedEx Ratesheets</Data></Cell>
+   </Row>
+   <Row ss:Index="8" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">Customer Name:     </Data></Cell>
+    <Cell><Data ss:Type="String">HIKE IT TRAK RACER B.V.</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s66"><Data ss:Type="String">Effective Date:     </Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">15 August 2024</Data></Cell>
+   </Row>
+   <Row ss:Index="12" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="s66"><Data ss:Type="String">Created On:     </Data></Cell>
+    <Cell ss:MergeAcross="2"><Data ss:Type="String">15 August 2024</Data></Cell>
+   </Row>
+   <Row ss:Index="15" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Net rates are not legally binding. The net rate sheets presented in this rate sheet document are for your convenience only, and are not an agreement or part of an agreement. In the event of a conflict between any net rates / net rate sheets and any actual invoiced amount, the actual invoiced amount shall always prevail.</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Please review your agreement for complete details or contact your FedEx Representative, Tristan Heringa phone# +31 (6) 57846624.</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FedEx reserves the right to change pricing at any time.</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Net rates for a country only apply to payor accounts in that country.</Data></Cell>
+   </Row>
+   <Row ss:Index="25" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Net rates are calculated based on applicable transportation discounts and do not include: surcharges, ancillary / other charges, duties and taxes, or special handling fees.</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">For services with Earned Discounts, actual net rates may vary due to changes in customer's shipping patterns that affect revenue thresholds used in net rate calculations. Similarly, effect of Bonus Discounts depends upon customers’ shipping patterns and automation devices.</Data></Cell>
+   </Row>
+   <Row ss:Index="29" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">If ratesheet currency differs from account billing currency, then net rates will not match billing statement. This rate mismatch will increase or decrease with exchange rates fluctuations.</Data></Cell>
+   </Row>
+   <Row ss:Index="31" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="3" ss:StyleID="s64"><Data ss:Type="String">FedEx ExpressNet Rates</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s66"><Data ss:Type="String">Customer Name / Location(s):</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">Account Number</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3"><Data ss:Type="String">HIKE IT TRAK RACER B.V.RAVENSWADE 150TNIEUWEGEIN 3439 LD</Data></Cell>
+    <Cell ss:MergeAcross="3"><Data ss:Type="String">788940572</Data></Cell>
+   </Row>
+   <Row ss:Index="36" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="3" ss:StyleID="s66"><Data ss:Type="String">Netherlands Express Rates</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="3" ss:StyleID="s66"><Data ss:Type="String">Netherlands FedEx International Third Party</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="4"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="6" ss:StyleID="s66"><Data ss:Type="String">FedEx International Economy Third Party</Data></Cell>
+    <Cell ss:MergeAcross="3"><Data ss:Type="String">Currency: EUR</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Net rates are effective as of 15 August 2024.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+    <Cell><Data ss:Type="String">ES-MAH</Data></Cell>
+    <Cell><Data ss:Type="String">ES-MAH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destination</Data></Cell>
+    <Cell><Data ss:Type="String">PT-FNC</Data></Cell>
+    <Cell><Data ss:Type="String">IT-RRO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Kgs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Package</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">0.5</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1.0</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1.5</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+    <Cell><Data ss:Type="String">17.30+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">2.5</Data></Cell>
+    <Cell><Data ss:Type="String">18.82</Data></Cell>
+    <Cell><Data ss:Type="String">18.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">3.0</Data></Cell>
+    <Cell><Data ss:Type="String">20.00</Data></Cell>
+    <Cell><Data ss:Type="String">20.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">3.5</Data></Cell>
+    <Cell><Data ss:Type="String">21.17</Data></Cell>
+    <Cell><Data ss:Type="String">21.17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">4.0</Data></Cell>
+    <Cell><Data ss:Type="String">22.35</Data></Cell>
+    <Cell><Data ss:Type="String">22.35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">4.5</Data></Cell>
+    <Cell><Data ss:Type="String">23.52</Data></Cell>
+    <Cell><Data ss:Type="String">23.52</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">5.0</Data></Cell>
+    <Cell><Data ss:Type="String">24.70</Data></Cell>
+    <Cell><Data ss:Type="String">24.70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">5.5</Data></Cell>
+    <Cell><Data ss:Type="String">25.15</Data></Cell>
+    <Cell><Data ss:Type="String">25.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">6.0</Data></Cell>
+    <Cell><Data ss:Type="String">25.60</Data></Cell>
+    <Cell><Data ss:Type="String">25.60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">6.5</Data></Cell>
+    <Cell><Data ss:Type="String">26.05</Data></Cell>
+    <Cell><Data ss:Type="String">26.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">7.0</Data></Cell>
+    <Cell><Data ss:Type="String">26.50</Data></Cell>
+    <Cell><Data ss:Type="String">26.50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">7.5</Data></Cell>
+    <Cell><Data ss:Type="String">26.95</Data></Cell>
+    <Cell><Data ss:Type="String">26.95</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">8.0</Data></Cell>
+    <Cell><Data ss:Type="String">27.40</Data></Cell>
+    <Cell><Data ss:Type="String">27.40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">8.5</Data></Cell>
+    <Cell><Data ss:Type="String">27.85</Data></Cell>
+    <Cell><Data ss:Type="String">27.85</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">9.0</Data></Cell>
+    <Cell><Data ss:Type="String">28.30</Data></Cell>
+    <Cell><Data ss:Type="String">28.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">9.5</Data></Cell>
+    <Cell><Data ss:Type="String">28.75</Data></Cell>
+    <Cell><Data ss:Type="String">28.75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">10.0</Data></Cell>
+    <Cell><Data ss:Type="String">29.20</Data></Cell>
+    <Cell><Data ss:Type="String">29.20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">10.5</Data></Cell>
+    <Cell><Data ss:Type="String">29.62</Data></Cell>
+    <Cell><Data ss:Type="String">29.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">11.0</Data></Cell>
+    <Cell><Data ss:Type="String">30.05</Data></Cell>
+    <Cell><Data ss:Type="String">30.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">11.5</Data></Cell>
+    <Cell><Data ss:Type="String">30.47</Data></Cell>
+    <Cell><Data ss:Type="String">30.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">12.0</Data></Cell>
+    <Cell><Data ss:Type="String">30.90</Data></Cell>
+    <Cell><Data ss:Type="String">30.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">12.5</Data></Cell>
+    <Cell><Data ss:Type="String">31.32</Data></Cell>
+    <Cell><Data ss:Type="String">31.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">13.0</Data></Cell>
+    <Cell><Data ss:Type="String">31.75</Data></Cell>
+    <Cell><Data ss:Type="String">31.75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">13.5</Data></Cell>
+    <Cell><Data ss:Type="String">32.17</Data></Cell>
+    <Cell><Data ss:Type="String">32.17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">14.0</Data></Cell>
+    <Cell><Data ss:Type="String">32.60</Data></Cell>
+    <Cell><Data ss:Type="String">32.60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">14.5</Data></Cell>
+    <Cell><Data ss:Type="String">33.02</Data></Cell>
+    <Cell><Data ss:Type="String">33.02</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">15.0</Data></Cell>
+    <Cell><Data ss:Type="String">33.45</Data></Cell>
+    <Cell><Data ss:Type="String">33.45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">15.5</Data></Cell>
+    <Cell><Data ss:Type="String">33.87</Data></Cell>
+    <Cell><Data ss:Type="String">33.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">16.0</Data></Cell>
+    <Cell><Data ss:Type="String">34.30</Data></Cell>
+    <Cell><Data ss:Type="String">34.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">16.5</Data></Cell>
+    <Cell><Data ss:Type="String">34.72</Data></Cell>
+    <Cell><Data ss:Type="String">34.72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">17.0</Data></Cell>
+    <Cell><Data ss:Type="String">35.15</Data></Cell>
+    <Cell><Data ss:Type="String">35.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">17.5</Data></Cell>
+    <Cell><Data ss:Type="String">35.57</Data></Cell>
+    <Cell><Data ss:Type="String">35.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">18.0</Data></Cell>
+    <Cell><Data ss:Type="String">36.00</Data></Cell>
+    <Cell><Data ss:Type="String">36.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">18.5</Data></Cell>
+    <Cell><Data ss:Type="String">36.42</Data></Cell>
+    <Cell><Data ss:Type="String">36.42</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">19.0</Data></Cell>
+    <Cell><Data ss:Type="String">36.85</Data></Cell>
+    <Cell><Data ss:Type="String">36.85</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">19.5</Data></Cell>
+    <Cell><Data ss:Type="String">37.27</Data></Cell>
+    <Cell><Data ss:Type="String">37.27</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">20.0</Data></Cell>
+    <Cell><Data ss:Type="String">37.70</Data></Cell>
+    <Cell><Data ss:Type="String">37.70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">20.5</Data></Cell>
+    <Cell><Data ss:Type="String">38.12</Data></Cell>
+    <Cell><Data ss:Type="String">38.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">21.0</Data></Cell>
+    <Cell><Data ss:Type="String">38.37</Data></Cell>
+    <Cell><Data ss:Type="String">38.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">21.5</Data></Cell>
+    <Cell><Data ss:Type="String">38.62</Data></Cell>
+    <Cell><Data ss:Type="String">38.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">22.0</Data></Cell>
+    <Cell><Data ss:Type="String">38.87</Data></Cell>
+    <Cell><Data ss:Type="String">38.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">22.5</Data></Cell>
+    <Cell><Data ss:Type="String">39.12</Data></Cell>
+    <Cell><Data ss:Type="String">39.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">23.0</Data></Cell>
+    <Cell><Data ss:Type="String">39.37</Data></Cell>
+    <Cell><Data ss:Type="String">39.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">23.5</Data></Cell>
+    <Cell><Data ss:Type="String">39.62</Data></Cell>
+    <Cell><Data ss:Type="String">39.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">24.0</Data></Cell>
+    <Cell><Data ss:Type="String">39.87</Data></Cell>
+    <Cell><Data ss:Type="String">39.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">24.5</Data></Cell>
+    <Cell><Data ss:Type="String">40.12</Data></Cell>
+    <Cell><Data ss:Type="String">40.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">25.0</Data></Cell>
+    <Cell><Data ss:Type="String">40.37</Data></Cell>
+    <Cell><Data ss:Type="String">40.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">25.5</Data></Cell>
+    <Cell><Data ss:Type="String">40.62</Data></Cell>
+    <Cell><Data ss:Type="String">40.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">26.0</Data></Cell>
+    <Cell><Data ss:Type="String">40.87</Data></Cell>
+    <Cell><Data ss:Type="String">40.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">26.5</Data></Cell>
+    <Cell><Data ss:Type="String">41.12</Data></Cell>
+    <Cell><Data ss:Type="String">41.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">27.0</Data></Cell>
+    <Cell><Data ss:Type="String">41.37</Data></Cell>
+    <Cell><Data ss:Type="String">41.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">27.5</Data></Cell>
+    <Cell><Data ss:Type="String">41.62</Data></Cell>
+    <Cell><Data ss:Type="String">41.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">28.0</Data></Cell>
+    <Cell><Data ss:Type="String">41.87</Data></Cell>
+    <Cell><Data ss:Type="String">41.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">28.5</Data></Cell>
+    <Cell><Data ss:Type="String">42.12</Data></Cell>
+    <Cell><Data ss:Type="String">42.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">29.0</Data></Cell>
+    <Cell><Data ss:Type="String">42.37</Data></Cell>
+    <Cell><Data ss:Type="String">42.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">29.5</Data></Cell>
+    <Cell><Data ss:Type="String">42.62</Data></Cell>
+    <Cell><Data ss:Type="String">42.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">30.0</Data></Cell>
+    <Cell><Data ss:Type="String">42.87</Data></Cell>
+    <Cell><Data ss:Type="String">42.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">30.5</Data></Cell>
+    <Cell><Data ss:Type="String">43.12</Data></Cell>
+    <Cell><Data ss:Type="String">43.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">31.0</Data></Cell>
+    <Cell><Data ss:Type="String">43.37</Data></Cell>
+    <Cell><Data ss:Type="String">43.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">31.5</Data></Cell>
+    <Cell><Data ss:Type="String">43.62</Data></Cell>
+    <Cell><Data ss:Type="String">43.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">32.0</Data></Cell>
+    <Cell><Data ss:Type="String">43.87</Data></Cell>
+    <Cell><Data ss:Type="String">43.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">32.5</Data></Cell>
+    <Cell><Data ss:Type="String">44.12</Data></Cell>
+    <Cell><Data ss:Type="String">44.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">33.0</Data></Cell>
+    <Cell><Data ss:Type="String">44.37</Data></Cell>
+    <Cell><Data ss:Type="String">44.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">33.5</Data></Cell>
+    <Cell><Data ss:Type="String">44.62</Data></Cell>
+    <Cell><Data ss:Type="String">44.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">34.0</Data></Cell>
+    <Cell><Data ss:Type="String">44.87</Data></Cell>
+    <Cell><Data ss:Type="String">44.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">34.5</Data></Cell>
+    <Cell><Data ss:Type="String">45.12</Data></Cell>
+    <Cell><Data ss:Type="String">45.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">35.0</Data></Cell>
+    <Cell><Data ss:Type="String">45.37</Data></Cell>
+    <Cell><Data ss:Type="String">45.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">35.5</Data></Cell>
+    <Cell><Data ss:Type="String">45.62</Data></Cell>
+    <Cell><Data ss:Type="String">45.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">36.0</Data></Cell>
+    <Cell><Data ss:Type="String">45.87</Data></Cell>
+    <Cell><Data ss:Type="String">45.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">36.5</Data></Cell>
+    <Cell><Data ss:Type="String">46.12</Data></Cell>
+    <Cell><Data ss:Type="String">46.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">37.0</Data></Cell>
+    <Cell><Data ss:Type="String">46.37</Data></Cell>
+    <Cell><Data ss:Type="String">46.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">37.5</Data></Cell>
+    <Cell><Data ss:Type="String">46.62</Data></Cell>
+    <Cell><Data ss:Type="String">46.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">38.0</Data></Cell>
+    <Cell><Data ss:Type="String">46.87</Data></Cell>
+    <Cell><Data ss:Type="String">46.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">38.5</Data></Cell>
+    <Cell><Data ss:Type="String">47.12</Data></Cell>
+    <Cell><Data ss:Type="String">47.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">39.0</Data></Cell>
+    <Cell><Data ss:Type="String">47.37</Data></Cell>
+    <Cell><Data ss:Type="String">47.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">39.5</Data></Cell>
+    <Cell><Data ss:Type="String">47.62</Data></Cell>
+    <Cell><Data ss:Type="String">47.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">40.0</Data></Cell>
+    <Cell><Data ss:Type="String">47.87</Data></Cell>
+    <Cell><Data ss:Type="String">47.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">40.5</Data></Cell>
+    <Cell><Data ss:Type="String">48.12</Data></Cell>
+    <Cell><Data ss:Type="String">48.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">41.0</Data></Cell>
+    <Cell><Data ss:Type="String">48.37</Data></Cell>
+    <Cell><Data ss:Type="String">48.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">41.5</Data></Cell>
+    <Cell><Data ss:Type="String">48.62</Data></Cell>
+    <Cell><Data ss:Type="String">48.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">42.0</Data></Cell>
+    <Cell><Data ss:Type="String">48.87</Data></Cell>
+    <Cell><Data ss:Type="String">48.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">42.5</Data></Cell>
+    <Cell><Data ss:Type="String">49.12</Data></Cell>
+    <Cell><Data ss:Type="String">49.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">43.0</Data></Cell>
+    <Cell><Data ss:Type="String">49.37</Data></Cell>
+    <Cell><Data ss:Type="String">49.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">43.5</Data></Cell>
+    <Cell><Data ss:Type="String">49.62</Data></Cell>
+    <Cell><Data ss:Type="String">49.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">44.0</Data></Cell>
+    <Cell><Data ss:Type="String">49.87</Data></Cell>
+    <Cell><Data ss:Type="String">49.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">44.5</Data></Cell>
+    <Cell><Data ss:Type="String">50.12</Data></Cell>
+    <Cell><Data ss:Type="String">50.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">45.0</Data></Cell>
+    <Cell><Data ss:Type="String">50.90</Data></Cell>
+    <Cell><Data ss:Type="String">50.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">45.5</Data></Cell>
+    <Cell><Data ss:Type="String">51.67</Data></Cell>
+    <Cell><Data ss:Type="String">51.67</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">46.0</Data></Cell>
+    <Cell><Data ss:Type="String">52.45</Data></Cell>
+    <Cell><Data ss:Type="String">52.45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">46.5</Data></Cell>
+    <Cell><Data ss:Type="String">53.22</Data></Cell>
+    <Cell><Data ss:Type="String">53.22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">47.0</Data></Cell>
+    <Cell><Data ss:Type="String">54.00</Data></Cell>
+    <Cell><Data ss:Type="String">54.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">47.5</Data></Cell>
+    <Cell><Data ss:Type="String">54.77</Data></Cell>
+    <Cell><Data ss:Type="String">54.77</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">48.0</Data></Cell>
+    <Cell><Data ss:Type="String">55.55</Data></Cell>
+    <Cell><Data ss:Type="String">55.55</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">48.5</Data></Cell>
+    <Cell><Data ss:Type="String">56.32</Data></Cell>
+    <Cell><Data ss:Type="String">56.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">49.0</Data></Cell>
+    <Cell><Data ss:Type="String">57.10</Data></Cell>
+    <Cell><Data ss:Type="String">57.10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">49.5</Data></Cell>
+    <Cell><Data ss:Type="String">57.87</Data></Cell>
+    <Cell><Data ss:Type="String">57.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">50.0</Data></Cell>
+    <Cell><Data ss:Type="String">58.65</Data></Cell>
+    <Cell><Data ss:Type="String">58.65</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">50.5</Data></Cell>
+    <Cell><Data ss:Type="String">59.42</Data></Cell>
+    <Cell><Data ss:Type="String">59.42</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">51.0</Data></Cell>
+    <Cell><Data ss:Type="String">60.20</Data></Cell>
+    <Cell><Data ss:Type="String">60.20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">51.5</Data></Cell>
+    <Cell><Data ss:Type="String">60.97</Data></Cell>
+    <Cell><Data ss:Type="String">60.97</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">52.0</Data></Cell>
+    <Cell><Data ss:Type="String">61.75</Data></Cell>
+    <Cell><Data ss:Type="String">61.75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">52.5</Data></Cell>
+    <Cell><Data ss:Type="String">62.52</Data></Cell>
+    <Cell><Data ss:Type="String">62.52</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">53.0</Data></Cell>
+    <Cell><Data ss:Type="String">63.30</Data></Cell>
+    <Cell><Data ss:Type="String">63.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">53.5</Data></Cell>
+    <Cell><Data ss:Type="String">64.07</Data></Cell>
+    <Cell><Data ss:Type="String">64.07</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">54.0</Data></Cell>
+    <Cell><Data ss:Type="String">64.85</Data></Cell>
+    <Cell><Data ss:Type="String">64.85</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">54.5</Data></Cell>
+    <Cell><Data ss:Type="String">65.62</Data></Cell>
+    <Cell><Data ss:Type="String">65.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">55.0</Data></Cell>
+    <Cell><Data ss:Type="String">66.40</Data></Cell>
+    <Cell><Data ss:Type="String">66.40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">55.5</Data></Cell>
+    <Cell><Data ss:Type="String">67.17</Data></Cell>
+    <Cell><Data ss:Type="String">67.17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">56.0</Data></Cell>
+    <Cell><Data ss:Type="String">67.95</Data></Cell>
+    <Cell><Data ss:Type="String">67.95</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">56.5</Data></Cell>
+    <Cell><Data ss:Type="String">68.72</Data></Cell>
+    <Cell><Data ss:Type="String">68.72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">57.0</Data></Cell>
+    <Cell><Data ss:Type="String">69.50</Data></Cell>
+    <Cell><Data ss:Type="String">69.50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">57.5</Data></Cell>
+    <Cell><Data ss:Type="String">70.27</Data></Cell>
+    <Cell><Data ss:Type="String">70.27</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">58.0</Data></Cell>
+    <Cell><Data ss:Type="String">71.05</Data></Cell>
+    <Cell><Data ss:Type="String">71.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">58.5</Data></Cell>
+    <Cell><Data ss:Type="String">71.82</Data></Cell>
+    <Cell><Data ss:Type="String">71.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">59.0</Data></Cell>
+    <Cell><Data ss:Type="String">72.60</Data></Cell>
+    <Cell><Data ss:Type="String">72.60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">59.5</Data></Cell>
+    <Cell><Data ss:Type="String">73.37</Data></Cell>
+    <Cell><Data ss:Type="String">73.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">60.0</Data></Cell>
+    <Cell><Data ss:Type="String">74.15</Data></Cell>
+    <Cell><Data ss:Type="String">74.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">60.5</Data></Cell>
+    <Cell><Data ss:Type="String">74.92</Data></Cell>
+    <Cell><Data ss:Type="String">74.92</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">61.0</Data></Cell>
+    <Cell><Data ss:Type="String">75.70</Data></Cell>
+    <Cell><Data ss:Type="String">75.70</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">61.5</Data></Cell>
+    <Cell><Data ss:Type="String">76.47</Data></Cell>
+    <Cell><Data ss:Type="String">76.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">62.0</Data></Cell>
+    <Cell><Data ss:Type="String">77.25</Data></Cell>
+    <Cell><Data ss:Type="String">77.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">62.5</Data></Cell>
+    <Cell><Data ss:Type="String">78.02</Data></Cell>
+    <Cell><Data ss:Type="String">78.02</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63.0</Data></Cell>
+    <Cell><Data ss:Type="String">78.80</Data></Cell>
+    <Cell><Data ss:Type="String">78.80</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">63.5</Data></Cell>
+    <Cell><Data ss:Type="String">79.57</Data></Cell>
+    <Cell><Data ss:Type="String">79.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">64.0</Data></Cell>
+    <Cell><Data ss:Type="String">80.35</Data></Cell>
+    <Cell><Data ss:Type="String">80.35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">64.5</Data></Cell>
+    <Cell><Data ss:Type="String">81.12</Data></Cell>
+    <Cell><Data ss:Type="String">81.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">65.0</Data></Cell>
+    <Cell><Data ss:Type="String">81.90</Data></Cell>
+    <Cell><Data ss:Type="String">81.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">65.5</Data></Cell>
+    <Cell><Data ss:Type="String">82.67</Data></Cell>
+    <Cell><Data ss:Type="String">82.67</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">66.0</Data></Cell>
+    <Cell><Data ss:Type="String">83.45</Data></Cell>
+    <Cell><Data ss:Type="String">83.45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">66.5</Data></Cell>
+    <Cell><Data ss:Type="String">84.22</Data></Cell>
+    <Cell><Data ss:Type="String">84.22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">67.0</Data></Cell>
+    <Cell><Data ss:Type="String">85.00</Data></Cell>
+    <Cell><Data ss:Type="String">85.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">67.5</Data></Cell>
+    <Cell><Data ss:Type="String">85.77</Data></Cell>
+    <Cell><Data ss:Type="String">85.77</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">68.0</Data></Cell>
+    <Cell><Data ss:Type="String">86.55</Data></Cell>
+    <Cell><Data ss:Type="String">86.55</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">68.5</Data></Cell>
+    <Cell><Data ss:Type="String">87.32</Data></Cell>
+    <Cell><Data ss:Type="String">87.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">69.0</Data></Cell>
+    <Cell><Data ss:Type="String">88.10</Data></Cell>
+    <Cell><Data ss:Type="String">88.10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">69.5</Data></Cell>
+    <Cell><Data ss:Type="String">88.87</Data></Cell>
+    <Cell><Data ss:Type="String">88.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">70.0</Data></Cell>
+    <Cell><Data ss:Type="String">89.65</Data></Cell>
+    <Cell><Data ss:Type="String">89.65</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">70.5</Data></Cell>
+    <Cell><Data ss:Type="String">90.42</Data></Cell>
+    <Cell><Data ss:Type="String">90.42</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">FedEx International Economy Third PartyCurrency: EUR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Per-kilogram rates. Multiply by actual shipment weight in kilogram to get the net rate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+    <Cell><Data ss:Type="String">ES-MAH</Data></Cell>
+    <Cell><Data ss:Type="String">ES-MAH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destination</Data></Cell>
+    <Cell><Data ss:Type="String">PT-FNC</Data></Cell>
+    <Cell><Data ss:Type="String">IT-RRO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Kgs</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">71.0 - 99.0</Data></Cell>
+    <Cell><Data ss:Type="String">1.28</Data></Cell>
+    <Cell><Data ss:Type="String">1.28</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">100.0 - 299.0</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">300.0 - 499.0</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">500.0 - 999.0</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1,000.0 - 9,999.0</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+    <Cell><Data ss:Type="String">1.13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">10,000.0 - 99,999.0</Data></Cell>
+    <Cell><Data ss:Type="String">4.50</Data></Cell>
+    <Cell><Data ss:Type="String">4.50</Data></Cell>
+   </Row>
+   <Row ss:Index="209" ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="4"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="6" ss:StyleID="s66"><Data ss:Type="String">FedEx Regional Economy Third Party</Data></Cell>
+    <Cell ss:MergeAcross="3"><Data ss:Type="String">Currency: EUR</Data></Cell>
+   </Row>
+   <Row ss:Index="213" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Net rates are effective as of 15 August 2024.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+    <Cell><Data ss:Type="String">ES-MAH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destination</Data></Cell>
+    <Cell><Data ss:Type="String">IT-RRO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Kgs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Package</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">1.0</Data></Cell>
+    <Cell><Data ss:Type="String">16.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">16.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">3.0</Data></Cell>
+    <Cell><Data ss:Type="String">16.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">4.0</Data></Cell>
+    <Cell><Data ss:Type="String">16.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">5.0</Data></Cell>
+    <Cell><Data ss:Type="String">16.90</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">6.0</Data></Cell>
+    <Cell><Data ss:Type="String">30.38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">7.0</Data></Cell>
+    <Cell><Data ss:Type="String">31.92</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">8.0</Data></Cell>
+    <Cell><Data ss:Type="String">33.46</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">9.0</Data></Cell>
+    <Cell><Data ss:Type="String">35.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">10.0</Data></Cell>
+    <Cell><Data ss:Type="String">36.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">11.0</Data></Cell>
+    <Cell><Data ss:Type="String">37.60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">12.0</Data></Cell>
+    <Cell><Data ss:Type="String">38.89</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">13.0</Data></Cell>
+    <Cell><Data ss:Type="String">40.19</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">14.0</Data></Cell>
+    <Cell><Data ss:Type="String">41.48</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">15.0</Data></Cell>
+    <Cell><Data ss:Type="String">42.78</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">16.0</Data></Cell>
+    <Cell><Data ss:Type="String">44.07</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">17.0</Data></Cell>
+    <Cell><Data ss:Type="String">45.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">18.0</Data></Cell>
+    <Cell><Data ss:Type="String">46.66</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">19.0</Data></Cell>
+    <Cell><Data ss:Type="String">47.96</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">20.0</Data></Cell>
+    <Cell><Data ss:Type="String">49.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">21.0</Data></Cell>
+    <Cell><Data ss:Type="String">50.55</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">22.0</Data></Cell>
+    <Cell><Data ss:Type="String">51.84</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">23.0</Data></Cell>
+    <Cell><Data ss:Type="String">53.14</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">24.0</Data></Cell>
+    <Cell><Data ss:Type="String">54.43</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">25.0</Data></Cell>
+    <Cell><Data ss:Type="String">55.73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">26.0</Data></Cell>
+    <Cell><Data ss:Type="String">57.02</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">27.0</Data></Cell>
+    <Cell><Data ss:Type="String">58.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">28.0</Data></Cell>
+    <Cell><Data ss:Type="String">59.61</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">29.0</Data></Cell>
+    <Cell><Data ss:Type="String">60.91</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">30.0</Data></Cell>
+    <Cell><Data ss:Type="String">67.76</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">35.0</Data></Cell>
+    <Cell><Data ss:Type="String">74.61</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">40.0</Data></Cell>
+    <Cell><Data ss:Type="String">81.46</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">45.0</Data></Cell>
+    <Cell><Data ss:Type="String">88.31</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">50.0</Data></Cell>
+    <Cell><Data ss:Type="String">95.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">55.0</Data></Cell>
+    <Cell><Data ss:Type="String">101.93</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">60.0</Data></Cell>
+    <Cell><Data ss:Type="String">108.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">65.0</Data></Cell>
+    <Cell><Data ss:Type="String">115.56</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">70.0</Data></Cell>
+    <Cell><Data ss:Type="String">115.69</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">FedEx Regional Economy Third PartyCurrency: EUR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Per-kilogram rates. Multiply by actual shipment weight in kilogram to get the net rate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+    <Cell><Data ss:Type="String">ES-MAH</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Destination</Data></Cell>
+    <Cell><Data ss:Type="String">IT-RRO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Kgs</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">71.0 - 99,999.0</Data></Cell>
+    <Cell><Data ss:Type="String">1.65</Data></Cell>
+   </Row>
+   <Row ss:Index="271" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Proposal No.:</Data></Cell>
+    <Cell><Data ss:Type="String">13103724</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.25" x:Left="0.25" x:Right="0.25" x:Top="0.25"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>219</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>241</ActiveRow>
+     <ActiveCol>29</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
